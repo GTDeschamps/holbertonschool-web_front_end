@@ -22,7 +22,7 @@ html
 	--section-header-align: center;
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
-	--section-title-color: black;
+	--section-title-color: #000000;
 	}
 html {font-size: 62.5%;}
 a{text-decoration: none; color:inherit;}
