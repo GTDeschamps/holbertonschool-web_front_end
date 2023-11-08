@@ -35,8 +35,9 @@ html
 	--section-title-color: var(--color-black);
 	}
 
-	*{box-sizing: border-box;
-}
+	*, *:before, *:after {
+		box-sizing: border-box;
+		}
 
 html {font-size: 62.5%;}
 
