@@ -167,8 +167,7 @@ template{
 
 /*# sourceMappingURL=normalize.min.css.map */
 
-html
-{scroll-behavior: smooth;}
+
 :root{
 	/*FONT*/
 	--font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -246,7 +245,10 @@ html
 		box-sizing: border-box;
 		}
 
-html {font-size: 62.5%;}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
 
 /*Header*/
 .header {
@@ -270,13 +272,16 @@ a:link{
 	color:inherit;
 }
 
-a:visited{font-style: italic;
+a:visited{
+	font-style: italic;
 }
 
-a:hover{text-decoration: underline;
+a:hover{
+	text-decoration: underline;
 }
 
-a:active{background-color: var(--color-light-grey);
+a:active{
+	background-color: var(--color-light-grey);
 }
 
 /*Body*/
@@ -289,10 +294,12 @@ body{
 }
 
 	/*Classes*/
-.visually-hidden{display: none;
+.visually-hidden{
+	display: none;
 }
 
-.card-category{color: var(--color-primary)
+.card-category{
+	color: var(--color-primary)
 }
 
 .section{
@@ -561,10 +568,8 @@ ul.row {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
 	background: var(--button-hover-background);
-	transition: color var(--transition-duration) var(--transition-cubic-bezier),
-	background-color var(--transition-duration) var(--transition-cubic-bezier);
-}
-}
+	transition-duration: var(--transition-duration);
+	transition-property: color, background-color;
 
 	/*Footer*/
 .footer {
