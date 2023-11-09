@@ -201,7 +201,7 @@ ul.row {
 
 .card-services a {
 	display: block;
-	padding: 2em; /* Assuming you mean 2 times the root element */
+	padding: 2em;
 	background-color: var(--color-light-grey);
 }
 
